@@ -1,7 +1,6 @@
 # Multimodal Learning for Arthritis Gene Expression Analysis
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Gene%20Expression-green.svg)](https://www.ncbi.nlm.nih.gov/geo/)
 
 > **CellWhisperer-Inspired Multimodal Embedding Analysis**  
@@ -22,7 +21,6 @@
 - [Key Findings](#-key-findings)
 - [Technologies Used](#-technologies-used)
 - [References](#-references)
-- [License](#-license)
 
 ---
 
@@ -46,19 +44,19 @@ These modalities cannot be directly compared, limiting our ability to:
 We bridge this gap by:
 1. Creating embeddings for both modalities (BioBERT for text, PCA/Autoencoder for expression)
 2. Aligning them in a shared 256-dimensional space using contrastive learning
-3. Achieving **100% cross-modal retrieval accuracy**
+3. Achieving **Perfect cross-modal retrieval accuracy**
 4. Discovering biological insights about disease relationships
 
 ---
 
 ##  Key Features
 
-- ✅ **Multimodal Alignment**: Text and expression embeddings in shared space
-- ✅ **100% Cross-Modal Retrieval**: Perfect matching between text and expression
-- ✅ **Biological Insights**: Disease relationship analysis and clinical correlations
-- ✅ **Multiple Methods**: Comparison of PCA vs Autoencoder for expression embeddings
-- ✅ **Interactive Visualizations**: Plotly-based interactive HTML visualizations
-- ✅ **Comprehensive Analysis**: End-to-end pipeline from raw data to insights
+-  **Multimodal Alignment**: Text and expression embeddings in shared space
+- **Cross-Modal Retrieval**: Perfect matching between text and expression
+- **Biological Insights**: Disease relationship analysis and clinical correlations
+- **Multiple Methods**: Comparison of PCA vs Autoencoder for expression embeddings
+- **Interactive Visualizations**: Plotly-based interactive HTML visualizations
+- **Comprehensive Analysis**: End-to-end pipeline from raw data to insights
 
 ---
 
@@ -123,8 +121,7 @@ multimodal-arthritis-analysis/
 │
 └── docs/                   # Documentation (see docs/README.md)
     ├── COMPREHENSIVE_PROJECT_HANDBOOK.md
-    ├── STORY_STYLE_HANDBOOK.md
-    └── ...
+    ├── ...
 ```
 
 ---
@@ -161,7 +158,7 @@ multimodal-arthritis-analysis/
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Running the Complete Pipeline
 
@@ -223,9 +220,9 @@ python scripts/09_biological_analysis.py
 
 ### Alignment Performance
 
-- ✅ **100% cross-modal retrieval accuracy**
-- ✅ **122% improvement** in text embedding clustering after alignment
-- ✅ **91% improvement** in expression embedding clustering after alignment
+- **Perfectcross-modal retrieval accuracy**
+- **122% improvement** in text embedding clustering after alignment
+- **91% improvement** in expression embedding clustering after alignment
 
 ### Key Visualizations
 
@@ -247,7 +244,7 @@ Open in your browser:
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Text Embeddings
 
@@ -286,7 +283,7 @@ Two methods compared:
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 ### 1. Disease Relationships
 
@@ -323,7 +320,7 @@ Two methods compared:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Libraries
 
