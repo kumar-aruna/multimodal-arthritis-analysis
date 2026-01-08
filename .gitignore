@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (large)
+data/*.npy
+data/*.csv
+!data/.gitkeep
+
+# Results (keep structure, ignore large files)
+results/*.npy
+results/*.parquet
+results/*.csv
+!results/.gitkeep
+
+# Raw data (too large for GitHub)
+GSE36700_series_matrix.txt
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (move to docs folder)
+# Keep only README.md in root
+
+# CellWhisperer reference (external repo)
+CellWhisperer-main/
+
+# PDFs
+*.pdf
+
+# Temporary files
+*.tmp
+*.log
+
